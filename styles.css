@@ -8,7 +8,7 @@
     "post-img post-img"
     "post-blog-1 post-blog-1"
     "post-img-2 post-img-2"
-    "pots-3 post-blog-2"
+    "post-blog-2 post-blog-2"
     "ft ft";
 }
 
@@ -46,7 +46,7 @@
   grid-area: post-img;
   width: 100%;
   height: 100%;
-  background-image: url("../images/post-1.jpg");
+  background-image: url("images/cabo.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@
 
 #post-img-2 {
   grid-area: post-img-2;
-  background-image: url("../images/post-2.jpg");
+  background-image: url("images/nyc.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -144,7 +144,7 @@
 nav {
   grid-area: nav;
   z-index: 6000;
-  background: #fff;
+  background: ##eaf1f0;
   box-shadow: 0 1px 20px 0 rgba(46, 61, 73, 0.2);
   display: flex;
   flex-flow: row wrap;
@@ -169,7 +169,7 @@ nav {
   text-align: center;
   margin-left: 0;
   font-weight: 700;
-  color: #00a6ff;
+  color: #494b4a;
 }
 
 #nav-ul {
@@ -197,20 +197,20 @@ li {
 }
 
 .nav-item > a {
-  color: #222;
+  color: #494b4a;
   font-weight: 700;
   padding: 8px 20px;
   border-radius: 2px;
 }
 
 .nav-item > a:hover {
-  color: #00a6ff !important;
+  color: #0cf5c0 !important;
   background-color: #000;
   border: 1px solid #000;
 }
 
 .nav-item > a:active {
-  color: #00a6ff !important;
+  color: #0cf5c0 !important;
   background-color: #000;
   border: 1px solid #000;
 }
@@ -261,10 +261,10 @@ li {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-size: 14px;
   line-height: 1.6;
-  background-color: #fffaf0;
+  background-color: #f5faf8;
   color: #222;
 }
 
@@ -276,7 +276,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: "Kanit", serif;
   letter-spacing: 0.05em;
   margin: 0.2em 0;
   text-align: center;
@@ -307,7 +307,7 @@ h6 {
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kanit", sans-serif;
   text-align: left;
   font-size: 1em;
   margin: 1em 0 0;
@@ -332,13 +332,13 @@ a:hover {
 }
 
 strong {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-weight: 700;
   letter-spacing: 0.05em;
 }
 
 em {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-style: 500i;
   letter-spacing: 0.05em;
 }
@@ -356,7 +356,7 @@ figcaption {
 }
 
 q {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-style: 500i;
   letter-spacing: 0.05em;
 }
@@ -381,7 +381,7 @@ blockquote:first-letter {
 .btn {
   width: 150px;
   padding: 10px 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Gill Sans", sans-serif;
   font-size: 1.1em;
   letter-spacing: 0.1em;
   text-align: center;
@@ -396,7 +396,7 @@ blockquote:first-letter {
   background-color: transparent;
   border: 2px solid #00a6ff;
   border-radius: 3px;
-  color: #00a6ff;
+  color: #e0e5e3;
   transition: all 0.3s;
 }
 
