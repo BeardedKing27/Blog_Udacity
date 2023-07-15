@@ -6,9 +6,9 @@
   grid-template-areas:
     "nav nav"
     "post-img post-img"
-    "post-blog-1 post-blog-1"
+    "post-1 post-1"
     "post-img-2 post-img-2"
-    "post-blog-2 post-blog-2"
+    "post-2 post-2"
     "ft ft";
 }
 
@@ -21,8 +21,8 @@
     gap: 10px;
     grid-template-areas:
       "nav nav"
-      "post-img post-blog-1"
-      "post-blog-2 post-img-2"
+      "post-img post-1"
+      "post-2 post-img-2"
       "ft ft";
   }
 }
@@ -35,8 +35,8 @@
     gap: 10px;
     grid-template-areas:
       "nav nav"
-      "post-img post-blog-1"
-      "post-blog-2 post-img-2"
+      "post-img post-1"
+      "post-2 post-img-2"
       "ft ft";
   }
 }
@@ -46,7 +46,7 @@
   grid-area: post-img;
   width: 100%;
   height: 100%;
-  background-image: url("images/cabo.jpg");
+  background-image: url("https://images.unsplash.com/photo-1580846629083-02669741360a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1427&q=80");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -55,34 +55,37 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  color: ##3cc6fe;
+  color: #3cc6fe;
 }
 
 .post {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #3cc6fe;
+  color: white;
   min-height: 160px;
 }
 
-#post-blog-1 {
-  grid-area: post-blog-1;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+#post-1 {
+  grid-area: post-1;
+  background: linear-gradient(rgba(0, 53, 94, 0.55), rgba(0, 53, 94, 0.55));
   width: 100%;
   height: 100%;
   background-position: center;
-  background-size: cover;
+  background-size: auto-fill;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
 }
 
-#post-blog-2 {
-  grid-area: post-blog-2;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+#post-2 {
+  grid-area: post-2;
+  background-image: linear-gradient(
+    rgba(0, 53, 94, 0.55),
+    rgba(0, 53, 94, 0.55)
+  );
   background-position: center;
-  background-size: cover;
+  background-size: auto-fill;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
@@ -90,7 +93,7 @@
 
 #post-img-2 {
   grid-area: post-img-2;
-  background-image: url("images/nyc.jpg");
+  background-image: url("https://images.unsplash.com/photo-1552519837-47846308a0e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -100,11 +103,11 @@
 /* tile styling */
 
 .text-summary {
-  background-color: rgba(0, 0, 0, 0.5);
-  min-width: 60%;
-  max-width: 500px;
-  padding: 10px 20px;
-  margin: 20px;
+  background-color: rgba(0, 53, 94, 0.55);
+  min-width: 75%;
+  max-width: 300px;
+  padding: 10px 10px;
+  margin: 10px;
   text-align: center;
   border-radius: 2px;
 }
@@ -137,14 +140,14 @@
   }
 
   .text-summary {
-    padding: 5px 15px;
+    padding: 5px 5px;
     margin: 5px;
   }
 }
 nav {
   grid-area: nav;
   z-index: 6000;
-  background: ##eaf1f0;
+  background: #fff2cc;
   box-shadow: 0 1px 20px 0 rgba(46, 61, 73, 0.2);
   display: flex;
   flex-flow: row wrap;
@@ -155,7 +158,7 @@ nav {
 
 #nav-flex-logo {
   display: flex;
-  font-family: "Lucida" Grande, sans-serif;
+  font-family: "Lucida", sans-serif;
   font-size: 1.5em;
   color: #222;
   flex-flow: row nowrap;
@@ -262,9 +265,9 @@ li {
 
 body {
   font-family: "Kanit", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.6;
-  background-color: #f5faf8;
+  background-color: #fff2cc;
   color: #222;
 }
 
@@ -272,10 +275,7 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-family: "Kanit", serif;
   letter-spacing: 0.05em;
   margin: 0.2em 0;
@@ -292,18 +292,6 @@ h2 {
 
 h3 {
   font-size: 2.4em;
-}
-
-h4 {
-  font-size: 1.9em;
-}
-
-h5 {
-  font-size: 1.5em;
-}
-
-h6 {
-  font-size: 1.2em;
 }
 
 p {
@@ -339,7 +327,7 @@ strong {
 
 em {
   font-family: "Kanit", sans-serif;
-  font-style: 500i;
+  font-style: oblique;
   letter-spacing: 0.05em;
 }
 
@@ -357,7 +345,7 @@ figcaption {
 
 q {
   font-family: "Kanit", sans-serif;
-  font-style: 500i;
+  font-style: oblique;
   letter-spacing: 0.05em;
 }
 
@@ -394,14 +382,14 @@ blockquote:first-letter {
 
 .btn-primary {
   background-color: transparent;
-  border: 2px solid #00a6ff;
+  border: 2px solid #5c9d9e;
   border-radius: 3px;
   color: #e0e5e3;
   transition: all 0.3s;
 }
 
 .btn-primary:hover {
-  background-color: #00a6ff;
+  background-color: #5c9d9e;
   border: 2px solid #00a6ff;
   border-radius: 3px;
   color: #fffaf0;
@@ -458,4 +446,3 @@ footer section {
 .link-img:hover {
   opacity: 0.4;
 }
-
