@@ -50,7 +50,7 @@
   grid-area: post-img;
   width: 100%;
   height: 100%;
-  background-image: url("../../images/cabo.jpg");
+  background-image: url("../../assets/cabo.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@
 
 #post-img-2 {
   grid-area: post-img-2;
-  background-image: url("../../images/nyc.jpg");
+  background-image: url("../../assets/nyc.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
