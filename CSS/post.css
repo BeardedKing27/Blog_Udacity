@@ -19,15 +19,16 @@
   #grid-container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 60px 350px auto auto auto 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 350px auto auto auto auto 30px;
     grid-template-areas:
-      "nav nav nav nav"
-      "sd hd hd hd"
-      "post-img-1 post-img-2 post-img-3 post-img-4"
-      "bg bg bg bg"
-      "hr hr hr hr"
-      "ft ft ft ft";
+      "nav nav"
+      "sd hd"
+      "post-img-1 post-img-2"
+      "post-img-3 post-img-4"
+      "bg bg"
+      "hr hr"
+      "ft ft";
   }
 }
 
