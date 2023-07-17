@@ -89,7 +89,7 @@
     rgba(0, 53, 94, 0.55)
   );
   background-position: center;
-  background-size: auto-fill;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
@@ -110,8 +110,8 @@
   background-color: rgba(0, 53, 94, 0.55);
   min-width: 60%;
   max-width: 300px;
-  padding: 10px 10px;
-  margin: 10px;
+  padding: 10px 20px;
+  margin: 20px;
   text-align: center;
   border-radius: 2px;
 }
