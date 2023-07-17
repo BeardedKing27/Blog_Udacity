@@ -136,9 +136,9 @@ footer {
 .img-card-1 {
   grid-area: post-img-1;
   display: flex;
-  width: auto;
-  justify-content: center;
-  align-items: stretch;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-end;
   text-align: center;
   padding: 5px;
   background-color: #fff2cc;
@@ -146,9 +146,9 @@ footer {
 .img-card-2 {
   grid-area: post-img-2;
   display: flex;
-  width: auto;
-  justify-content: center;
-  align-items: stretch;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-end;
   text-align: center;
   padding: 5px;
   background-color: #fff2cc;
@@ -156,9 +156,9 @@ footer {
 .img-card-3 {
   grid-area: post-img-3;
   display: flex;
-  width: auto;
-  justify-content: center;
-  align-items: stretch;
+    width: 100%;
+  justify-content: space-around;
+  align-items: flex-end;
   text-align: center;
   padding: 5px;
   background-color: #fff2cc;
@@ -166,15 +166,15 @@ footer {
 .img-card-4 {
   grid-area: post-img-4;
   display: flex;
-  width: auto;
-  justify-content: center;
-  align-items: stretch;
+    width: 100%;
+  justify-content: space-around;
+  align-items: flex-end;
   text-align: center;
   padding: 5px;
   background-color: #fff2cc;
 }
 .img-card {
-  width: auto;
+  width: 50%;
   min-width: 120px;
   height: auto;
 }
@@ -184,7 +184,7 @@ footer {
 }
 
 .img-card-img {
-  width: auto;
+  width: 50%;
   height: 130px;
   object-fit: cover;
 }
