@@ -19,7 +19,7 @@
   #grid-container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 60px 350px auto auto auto auto 30px;
     grid-template-areas:
       "nav nav"
