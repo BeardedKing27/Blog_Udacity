@@ -26,7 +26,7 @@
     grid-template-areas:
       "nav nav"
       "post-img post-img-2"
-      "post-1 post-2 "
+      "post-1 post-2"
       "ft ft";
   }
 }
@@ -39,8 +39,8 @@
     gap: 10px;
     grid-template-areas:
       "nav nav"
-      "post-img post-1"
-      "post-2 post-img-2"
+      "post-img post-img-2"
+      "post-1 post-2"
       "ft ft";
   }
 }
